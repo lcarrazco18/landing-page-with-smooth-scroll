@@ -9,16 +9,16 @@ body {
     color: #fff;
     line-height: 1.6;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .container {
     width: 100%;
     height: 100%;
     /* CSS Smooth Scrool */
-    overflow-y: scroll;
+    /* overflow-y: scroll;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory; */
 }
 
 .navbar {
@@ -74,18 +74,21 @@ section p {
 
 /* Section Images */
 section#home {
-    background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;;
-  }
-  
-  section#about {
-    background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;;
-  }
-  
-  section#service {
-    background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
-  }
-  
-  section#contact {
-    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;;
-  }
-  
+    background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;
+    ;
+}
+
+section#about {
+    background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
+    ;
+}
+
+section#service {
+    background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;
+    ;
+}
+
+section#contact {
+    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;
+    ;
+}
